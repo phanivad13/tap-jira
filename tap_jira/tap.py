@@ -76,7 +76,7 @@ class TapJira(Tap):
             streams.PermissionHolderStream(self),
             streams.SprintStream(self),
             streams.ProjectRoleActorStream(self),
-            streams.AuditingStream(self),
+            # streams.AuditingStream(self),
             streams.DashboardStream(self),
             streams.FilterSearchStream(self),
             streams.FilterDefaultShareScopeStream(self),
